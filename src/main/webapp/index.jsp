@@ -5,10 +5,10 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Example</title>
     </head>
-    <body bgcolor="silver">
+    <body bgcolor="Lavender">
         <form method="post" action="login.jsp">
             <center>
-                <h1> Vignesh Dharmaraj's Ansible deployment project</h1>
+                <h1> Vignesh Dharmaraj's PGDO Ansible deployment project</h1>
             <table border="0" width="30%" cellpadding="3">
                 <thead>
                     <tr>
