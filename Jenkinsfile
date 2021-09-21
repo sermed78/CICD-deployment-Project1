@@ -28,10 +28,10 @@ pipeline {
         }
      
         
-         stage('Execute Maven') {
+         stage('Execute Maven build with playbook') {
            steps {
              
-                sh 'mvn package'             
+                sh 'ansible-playbook maven.yaml'             
           }
         }
         
