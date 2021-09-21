@@ -41,7 +41,7 @@
   notify: restart tomcat
 
 - name: Install Tomcat init script
-  copy: src=tomcat-initscript.sh dest=/etc/init.d/tomcat mode=0755
+  copy: src=tomcat-initscript.sh dest=/etc/init.d/tomcat.sh mode=0755
 
 - name: Start Tomcat
   shell: /etc/init.d/tomcat.sh start
