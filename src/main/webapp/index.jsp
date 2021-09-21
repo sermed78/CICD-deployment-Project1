@@ -8,7 +8,7 @@
     <body bgcolor="silver">
         <form method="post" action="login.jsp">
             <center>
-                <h1> Vignesh Dharmaraj's Ansible deployment project</h1>
+                <h1> Vignesh Dharmaraj's PGDO Ansible deployment project</h1>
             <table border="0" width="30%" cellpadding="3">
                 <thead>
                     <tr>
