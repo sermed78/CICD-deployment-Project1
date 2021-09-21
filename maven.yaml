@@ -1,0 +1,12 @@
+- hosts: localhost
+  become: true
+
+  tasks:
+   - name: Only run update_cache if the last one is more than 3600 seconds ago
+     apt:
+      update_cache: yes
+      cache_valid_time: 3600
+  
+   - name: install maven
+     apt: name=maven state=latest
+
