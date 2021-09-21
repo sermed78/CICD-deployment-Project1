@@ -1,4 +1,4 @@
 ---
 - name: restart tomcat
-  service: name=tomcat state=restarted
-
+  shell: /etc/init.d/tomcat.sh stop
+  shell: /etc/init.d/tomcat.sh start
