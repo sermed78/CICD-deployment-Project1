@@ -10,3 +10,6 @@
    - name: install maven
      apt: name=maven state=latest
 
+   - name: Maven build to generate war file
+     shell: mvn package
+
