@@ -5,7 +5,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Example</title>
     </head>
-    <body bgcolor="Lavender">
+    <body bgcolor="silver">
         <form method="post" action="login.jsp">
             <center>
                 <h1>CI/CD Deployment Using Ansible CM Tool</h1>
