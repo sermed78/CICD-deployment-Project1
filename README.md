@@ -19,8 +19,8 @@ Project goal is to Automate Ansible integration with Jenkins CI server so that w
 2) Main playbook (/main.yml) , tomcat ansible-role folders (/roles/tomcat/) and inventory folders (/inventories/) are important to deploy the java application in managed nodes</br>
 3) Jenkinsfile (/Jenkinsfile) is the jenkins pipeline script written to exeute the CI/CD in stages to do the code build and deploy the changes to the managed nodes </br>
 4) Java Web App (/src/main/webapp/) contains a simple login page webapp created with Servlets </br>
-5) POM file (/pom.xml) to do build and package the application into a WAR file
-6) Shell Script (/roles/tomcat/files/tomcat-initscript.sh) to start and stop tomcat server
+5) POM file (/pom.xml) to do build and package the application into a WAR file</br>
+6) Shell Script (/roles/tomcat/files/tomcat-initscript.sh) to start and stop tomcat server</br>
 
 <h2>System Requirements</h2>
 1 Master Node - With Ubantu OS and 4 GB RAM minimum - Installed with Python3, Java8, Ansible, Jenkins and Git</br>
@@ -35,7 +35,7 @@ Project goal is to Automate Ansible integration with Jenkins CI server so that w
 <h4>Step 2:</h4> In every managed node, 'jenkins' user has to be created with root user privilege and a SSH connectivity has to be establised from master node jenkins user to managed node jenkins user
 <h4>Step 3:</h4> Install Git and Ansible addin in the Jenkins server
 <h4>Step 4:</h4> Create a Jenkins pipeline Job which is using the Jenkinsfile form this project repository, set the job trigger as Poll SCM pointing to this gihub repository
-<h4>Step 5:</h4> Test the sample login web app java application runing in the managed nodes by accessing the url http://<Managed_node_ip>:8080/LoginWebApp-1/
+<h4>Step 5:</h4> Test the sample login web app java application runing in the managed nodes by accessing the url <b>http://~Managed_node_ip~:8080/LoginWebApp-1/</b> </br>
 
 
 
