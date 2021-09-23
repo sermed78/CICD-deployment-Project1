@@ -30,11 +30,11 @@ Project goal is to Automate Ansible integration with Jenkins CI server so that w
 2) In the Jenkins pipeline script file (/Jenkinsfile) , checkout stage related git clone url and branch has to be changed according to your github links.This stage in Jenkinsfile    is just used for displaying the Git repository fetch. </br>
 
 <h2>Steps to Execute the Project:</h2>
-Step 1: Master Node should have a user called 'jenkins' after the Jenkisn Installation, this user should be configured to connect to localhost with SSH. </br>
-Step 2: In every managed node, 'jenkins' user has to be created with root user privilege and a SSH connectivity has to be establised from master node jenkins user to managed             node jenkins user </br>
-Step 3: Install Git and Ansible addin in the Jenkins server </br>
-Step 4: Create a Jenkins pipeline Job which is using the Jenkinsfile form this project repository, set the job trigger as Poll SCM pointing to this gihub repository </br>
-Step 5: Test the sample login web app java application runing in the managed nodes by accessing the url http://<Managed_node_ip>:8080/LoginWebApp-1/ </br>
+<h4>Step 1:</h4> Master Node should have a user called 'jenkins' after the Jenkisn Installation, this user should be configured to connect to localhost with SSH.
+<h4>Step 2:</h4> In every managed node, 'jenkins' user has to be created with root user privilege and a SSH connectivity has to be establised from master node jenkins user to managed node jenkins user
+<h4>Step 3:</h4> Install Git and Ansible addin in the Jenkins server
+<h4>Step 4:</h4> Create a Jenkins pipeline Job which is using the Jenkinsfile form this project repository, set the job trigger as Poll SCM pointing to this gihub repository
+<h4>Step 5:</h4> Test the sample login web app java application runing in the managed nodes by accessing the url http://<Managed_node_ip>:8080/LoginWebApp-1/
 
 
 
