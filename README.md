@@ -20,6 +20,7 @@ Project goal is to Automate Ansible integration with Jenkins CI server so that w
 3) Jenkinsfile (/Jenkinsfile) is the jenkins pipeline script written to exeute the CI/CD in stages to do the code build and deploy the changes to the managed nodes </br>
 4) Java Web App (/src/main/webapp/) contains a simple login page webapp created with Servlets </br>
 5) POM file (/pom.xml) to do build and package the application into a WAR file
+6) Shell Script (/roles/tomcat/files/tomcat-initscript.sh) to start and stop tomcat server
 
 <h2>System Requirements</h2>
 1 Master Node - With Ubantu OS and 4 GB RAM minimum - Installed with Python3, Java8, Ansible, Jenkins and Git</br>
