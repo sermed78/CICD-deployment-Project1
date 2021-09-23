@@ -15,9 +15,9 @@ Project goal is to Automate Ansible integration with Jenkins CI server so that w
 <h3>Tools required:</h3> Ansible, GitHub, Git, Linux (Ubuntu), Jenkins</br>
 
 <h2>Important Artifacts in the project</h2>
-1) maven.yaml file (playbook) is used to install maven and do maven build in the CI server </br>
-2) main.yml , tomcat role folders and inventory files in the ansible role directory are important to deploy the java application in managed nodes </br>
-3) Jenkinsfile is the jenkins pipeline script written to exeute the CI/CD in stages to do the code build and deploy the changes to manages nodes </br>
+1) maven playbook file (/maven.yaml) is used to install maven and do maven build in the CI server </br>
+2) Main playbook (/main.yml) , tomcat ansible-role folders (/roles/tomcat/) and inventory folders (/inventories/) are important to deploy the java application in managed nodes</br>
+3) Jenkinsfile (/Jenkinsfile) is the jenkins pipeline script written to exeute the CI/CD in stages to do the code build and deploy the changes to the managed nodes </br>
 4) Java Web App (/src/main/webapp/) contains a simple login page webapp created with Servlets </br>
 5) POM file (/pom.xml) to do build and package the application into a WAR file
 
