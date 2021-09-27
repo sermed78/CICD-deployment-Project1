@@ -9,7 +9,7 @@ Solution build should demonstrate below capabilities:
 3.	Prepare Ansible playbook to run Maven build on Jenkins CI server
 4.	Prepare Ansible playbook to execute deployment steps on the remote web container with restart of the web container post deployment
 
-Project goal is to Automate Ansible integration with Jenkins CI server so that we can run and execute playbooks to deploy custom WAR files to a web container and then perform restart for the web container.
+<b>Project goal</b> is to Automate Ansible integration with Jenkins CI server so that we can run and execute playbooks to deploy custom WAR files to a web container and then perform restart for the web container.
 
 
 <h3>Tools required:</h3> Ansible, GitHub, Git, Linux (Ubuntu), Jenkins</br>
