@@ -16,7 +16,7 @@ Solution build should demonstrate below capabilities:
 
 <h2>Important Artifacts in the project</h2>
 1) maven playbook file (/maven.yaml) is used to install maven and do maven build in the CI server </br>
-2) Main playbook (/main.yml) , tomcat ansible-role playbook (/roles/tomcat/tasks/main.yml) and inventory file (/inventories/dev/hosts) where managed node IPs are important to deploy the java application in managed nodes</br>
+2) Main playbook (/main.yml) , tomcat ansible-role playbook (/roles/tomcat/tasks/main.yml) and inventory file (/inventories/dev/hosts) where managed node IPs are maintained, these are important files to deploy the java application in managed nodes</br>
 3) Jenkinsfile (/Jenkinsfile) is the jenkins pipeline script written to exeute the CI/CD in stages to do the code build and deploy the changes to the managed nodes </br>
 4) Java Web App (/src/main/webapp/) contains a simple login page webapp created with Servlets </br>
 5) POM file (/pom.xml) to do build and package the application into a WAR file</br>
