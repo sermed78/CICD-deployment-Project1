@@ -34,7 +34,7 @@ Solution build should demonstrate below capabilities:
 <h4>Step 1:</h4> Master Node should have a user called 'jenkins' after the Jenkisn Installation, this user should be configured to connect to localhost with SSH.
 <h4>Step 2:</h4> In every managed node, 'jenkins' user has to be created with root user privilege and a SSH connectivity has to be establised from master node jenkins user to managed node jenkins user
 <h4>Step 3:</h4> Install Git and Ansible addin in the Jenkins server
-<h4>Step 4:</h4> Create a Jenkins pipeline Job which is using the Jenkinsfile form this project repository, set the job trigger as Poll SCM pointing to this gihub repository
+<h4>Step 4:</h4> Create a Jenkins pipeline Job which is using the Jenkinsfile from this project repository, set the job trigger as Poll SCM pointing to this gihub repository
 <h4>Step 5:</h4> Test the sample login web app java application runing in the managed nodes by accessing the url <b>http://~Managed_node_ip~:8080/LoginWebApp-1/</b> </br>
 
 
