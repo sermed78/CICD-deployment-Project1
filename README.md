@@ -38,7 +38,8 @@ Project goal is to Automate Ansible integration with Jenkins CI server so that w
 <h4>Step 5:</h4> Test the sample login web app java application runing in the managed nodes by accessing the url <b>http://~Managed_node_ip~:8080/LoginWebApp-1/</b> </br>
 
 
-
+<h2>Project Documentation</h2>
+Click [here](https://github.com/vdharmaraj/PGDO_CM_Project_1/blob/94ea3999f5bc533aa83acb38aca43017a341ea99/PG%20DO%20-%20Configuration%20Management%20with%20Chef,%20Puppet%20and%20Ansible_Project-1_Vignesh_Dharmaraj.pdf) to access the project documentation I have created to submit for my DevOps PG certification program requirements
 
 
 
