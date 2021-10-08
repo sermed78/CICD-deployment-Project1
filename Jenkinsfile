@@ -10,7 +10,7 @@ pipeline {
       stage('checkout') {
            steps {
              
-                git branch: 'main', url: 'https://github.com/vdharmaraj/PGDO_CM_Project_1.git'
+                git branch: 'main', url: 'https://github.com/sermed78/CICD-deployment-Project1.git'
              
           }
         }
