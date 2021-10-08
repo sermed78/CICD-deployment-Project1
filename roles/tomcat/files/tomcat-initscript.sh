@@ -4,7 +4,6 @@
 # description: Starts/Stops Apache Tomcat
 #
 # Tomcat 7 start/stop/status script
-# @author: Vignesh Dharmaraj <vikidvg@gmail.com>
 #
 # Release updates:
 # Updated method for gathering pid of the current proccess
